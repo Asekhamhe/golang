@@ -6,6 +6,9 @@ import (
 )
 
 func main() {
+	/*
+		get user input by reading the command-line arguments of a program
+	*/
 	myString := ""
 	arguments := os.Args
 
