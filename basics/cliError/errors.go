@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) == 1 {
-		fmt.Println("Please gie one or more numbers.")
+		fmt.Println("Please enter one or more numbers.")
 		os.Exit(1)
 	}
 

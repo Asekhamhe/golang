@@ -6,3 +6,4 @@ COPY ./errors.go /go/src/app
 WORKDIR /go/src/app
 RUN go build -o /go/src/app/errors errors.go
 ENTRYPOINT [ "/go/src/app/errors" ]
+
